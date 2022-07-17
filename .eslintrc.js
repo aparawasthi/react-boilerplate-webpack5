@@ -13,9 +13,10 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:import/errors',  // eslint-plugin-import for import errors 
+    'plugin:import/errors',  // eslint-plugin-import for ES6+ import/export syntax & misspelling in filepath names 
     'plugin:import/warnings', 
     'plugin:import/typescript',
+    'plugin:jsx-a11y/recommended', // eslint-plugin-jsx-a11y adds accessibility standards in realtime
   ],
   rules: {
     'no-unused-vars': 'off',
