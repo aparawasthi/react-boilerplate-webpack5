@@ -11,7 +11,7 @@
     "strict": true,
     "moduleResolution": "node",
     "baseUrl": "./",
-    // "typeRoots": ["node_modules/@types"src/typingsggggngs"],
+    // "typeRoots": ["node_modules/@types", "src/typings"],
     "plugins": [{ "name”": "typescript-tslint-plugin" }],
     "suppressImplicitAnyIndexErrors": true,
     "esModuleInterop": true,
@@ -19,7 +19,7 @@
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
       "@styles/*": ["src/styles/*"],
-      "@pages/*": ["src/pages/*"],
+      "@pages/*": ["src/pages/*"]
     }
   },
   "include": ["src/**/*"],
