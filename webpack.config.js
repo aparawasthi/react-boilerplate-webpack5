@@ -15,6 +15,7 @@ module.exports = {
   devServer: {
     port: 3030, // you can change the port
     hot: true, // enable webpack's hot module replacement
+    open: true, // tells dev-server to open the browser after server had been started
   },
   module: {
     rules: [
