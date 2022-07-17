@@ -17,6 +17,8 @@ module.exports = {
     'plugin:import/warnings', 
     'plugin:import/typescript',
     'plugin:jsx-a11y/recommended', // eslint-plugin-jsx-a11y adds accessibility standards in realtime
+    'prettier/@typescript-eslint', 
+    'plugin:prettier/recommended', // runs prettier as eslint rule
   ],
   rules: {
     'no-unused-vars': 'off',
