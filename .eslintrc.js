@@ -13,6 +13,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:import/errors',  // eslint-plugin-import for import errors 
+    'plugin:import/warnings', 
+    'plugin:import/typescript',
   ],
   rules: {
     'no-unused-vars': 'off',
